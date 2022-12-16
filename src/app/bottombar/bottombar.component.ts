@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./bottombar.component.css']
 })
 export class BottombarComponent {
+ 
 
 }
