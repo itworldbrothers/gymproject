@@ -5,6 +5,8 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { MaterialModule } from "../material/material.module";
+import {InputTextModule} from 'primeng/inputtext';
+import {ButtonModule} from 'primeng/button';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { MaterialModule } from "../material/material.module";
   imports: [
     CommonModule,
     HomeRoutingModule,
-    MaterialModule
+    MaterialModule,
+    InputTextModule,
+    ButtonModule
   ]
 })
 export class HomeModule { }
