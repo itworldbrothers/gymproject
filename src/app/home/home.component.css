@@ -2,11 +2,23 @@
     margin: 0px;
     box-shadow: 0 0 5px black;
     padding: 0px;
-    height: 45%;
+    height: 45% !important;
     width: 100%;
     background-image: url("../../assets/homeimages/backgroungimg.jpg");
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: cover;
+   
 
+}
+
+.search{
+   position: absolute;
+   top: 35%;
+   left: 40%;
+   
+   
+
+    
+    
 }
