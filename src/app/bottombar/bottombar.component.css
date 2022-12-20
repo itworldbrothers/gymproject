@@ -43,10 +43,8 @@
 
 }
 @media only screen and (max-width: 760px) {
-=======
 
 @media only screen and (max-width: 768px) {
->>>>>>> Stashed changes
   .container .list {
   padding: 0.5rem;
  }
