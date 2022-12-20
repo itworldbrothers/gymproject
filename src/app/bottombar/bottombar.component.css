@@ -42,10 +42,20 @@
   }
 
 }
+@media only screen and (max-width: 760px) {
+  .container .list {
+  padding: 0.5rem;
+ }
+ .list li {
+     margin: 0 17px;
+     font-size: 0.6rem;
+     font-weight: 900;
+   }
+ }
 
 @media only screen and (max-width: 700px) {
  .container .list {
- padding: 0.2rem;
+ padding: 0.5rem;
 }
 .list li {
     margin: 0 17px;
@@ -56,7 +66,7 @@
 
 @media only screen and (max-width: 600px) {
 .container .list {
- padding: 0.2rem;
+ padding: 0.5rem;
 }
 .list li {
     margin: 0 15px;
@@ -65,3 +75,15 @@
   }
 
 }
+
+@media only screen and (max-width: 450px) {
+  .container .list {
+   padding: 0.5rem;
+  }
+  .list li {
+      margin: 0 8px;
+      font-size: 0.5rem;
+      font-weight: 900;
+    }
+  
+  }
