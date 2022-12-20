@@ -29,4 +29,39 @@
   font-weight: 900;
 }
 
+@media only screen and (max-width: 800px) {
 
+  .container .list {
+    padding: 0.5rem;
+  }
+
+  .list li {
+    margin: 0 20px;
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+ .container .list {
+ padding: 0.2rem;
+}
+.list li {
+    margin: 0 17px;
+    font-size: 0.6rem;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.container .list {
+ padding: 0.2rem;
+}
+.list li {
+    margin: 0 15px;
+    font-size: 0.5rem;
+    font-weight: 900;
+  }
+
+}
