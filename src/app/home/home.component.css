@@ -13,10 +13,11 @@
 }
 
 .search{
-   position: absolute;
-   top: 35%;
-   left: 40%;
-   
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 98%;
    
 
     
