@@ -1,6 +1,9 @@
 .opacity{
   opacity: 78%;
 }
+.sample{
+  color: blue;
+}
 
 
 @media only screen and (max-width: 450px) {
