@@ -12,12 +12,23 @@
 
 }
 
+.maintext{
+    width: 30%;
+    margin: 50px;
+}
+
+.color{
+    color: #fff;
+    font-size: 70px;
+    padding: 5px;
+}
+
 .search{
   
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 98%;
+    height: 10%;
 
 }
 

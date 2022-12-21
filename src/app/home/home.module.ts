@@ -7,19 +7,23 @@ import { SearchbarComponent } from './searchbar/searchbar.component';
 import { MaterialModule } from "../material/material.module";
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { NgOptimizedImage } from '@angular/common'; 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    UserProfileComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     MaterialModule,
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    NgOptimizedImage
   ]
 })
 export class HomeModule { }
