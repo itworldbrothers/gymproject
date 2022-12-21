@@ -1,0 +1,14 @@
+.profilemain {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+
+}
+
+.profile {
+    color: #fff;
+}
+
+.profilemain div{
+    margin: 2px 10px;
+}
