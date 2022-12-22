@@ -9,6 +9,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { NgOptimizedImage } from '@angular/common'; 
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { NgOptimizedImage } from '@angular/common';
     MaterialModule,
     InputTextModule,
     ButtonModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    FormsModule
   ]
 })
 export class HomeModule { }
