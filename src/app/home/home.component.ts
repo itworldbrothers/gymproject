@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
+
+  title:string = '"NO PAIN ';
+  title2: string = 'NO GAIN"';
+
+
+
+  ngOnInit() {
+
+    
+  }
+ 
 
 }
