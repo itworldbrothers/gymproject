@@ -45,7 +45,15 @@
     display: flex;
 }
 
-.section div{
-    min-width: 50%;
+
+
+.setsidewidth{
+    width:5%
 }
 
+.width{
+    width: 26%;
+}
+.width2{
+    width:38%
+}
