@@ -40,3 +40,12 @@
 
 }
 
+.section{
+    width: 100%;
+    display: flex;
+}
+
+.section div{
+    min-width: 50%;
+}
+

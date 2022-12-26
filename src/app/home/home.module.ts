@@ -10,13 +10,15 @@ import {ButtonModule} from 'primeng/button';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { NgOptimizedImage } from '@angular/common'; 
 import { FormsModule } from '@angular/forms';
+import { CardsliderComponent } from './cardslider/cardslider.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     SearchbarComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    CardsliderComponent
   ],
   imports: [
     CommonModule,
