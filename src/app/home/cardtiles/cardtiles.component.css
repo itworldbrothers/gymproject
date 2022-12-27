@@ -1,14 +1,14 @@
 .tilesmain{
     display: flex;
     flex-wrap: wrap;
-    margin: 12px 19px;
+    margin: 0px 4px;
 }
 
 .tiles{
     width: 100px;
     height: 100px;
     background-color: aliceblue;
-    margin: 10px;
+    margin: 4px;
 }
 
 .tilegrow{
