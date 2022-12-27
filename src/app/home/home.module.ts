@@ -11,6 +11,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { NgOptimizedImage } from '@angular/common'; 
 import { FormsModule } from '@angular/forms';
 import { CardsliderComponent } from './cardslider/cardslider.component';
+import { CardtilesComponent } from './cardtiles/cardtiles.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CardsliderComponent } from './cardslider/cardslider.component';
     HomeComponent,
     SearchbarComponent,
     UserProfileComponent,
-    CardsliderComponent
+    CardsliderComponent,
+    CardtilesComponent
   ],
   imports: [
     CommonModule,

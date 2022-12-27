@@ -1,0 +1,17 @@
+.tilesmain{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 19px;
+}
+
+.tiles{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.tilegrow{
+    display: flex;
+    flex-grow: 2;
+}
