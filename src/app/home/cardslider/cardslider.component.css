@@ -1,23 +1,39 @@
-.card-main{
+.card-main {
     width: 100%;
     margin: 20px 0 0 0;
     background-color: rgb(68, 133, 165);
-    height: 200px;
+    min-height: 200px;
+    max-height: 400px;
     display: flex;
     align-items: center;
     border-radius: 10px;
-    overflow-x: hidden;
-   
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; */
+
+
 }
 
-.card{
+.card-main::-webkit-scrollbar{
+    height: 10px;
+}
+
+.card-main::-webkit-scrollbar-thumb {
+    background: #131627; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-main::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px rgb(198, 40, 45); */
+    border-radius: 10px;
+}
+
+.card {
     background-color: #fff;
     height: 170px;
     min-width: 30%;
     margin: 13px;
-  
-    
-    
 }
-
-
