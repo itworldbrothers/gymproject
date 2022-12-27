@@ -3,7 +3,6 @@
     margin: 20px 0 0 0;
     background-color: rgb(68, 133, 165);
     min-height: 200px;
-    max-height: 400px;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -36,4 +35,5 @@
     height: 170px;
     min-width: 30%;
     margin: 13px;
+    box-shadow: 2px 2px 8px rgb(74, 91, 101);
 }
