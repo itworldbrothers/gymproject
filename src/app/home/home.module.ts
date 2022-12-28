@@ -12,6 +12,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CardsliderComponent } from './cardslider/cardslider.component';
 import { CardtilesComponent } from './cardtiles/cardtiles.component';
+import { SocialnotificationComponent } from './socialnotification/socialnotification.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CardtilesComponent } from './cardtiles/cardtiles.component';
     SearchbarComponent,
     UserProfileComponent,
     CardsliderComponent,
-    CardtilesComponent
+    CardtilesComponent,
+    SocialnotificationComponent
   ],
   imports: [
     CommonModule,
