@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0px 4px;
+    justify-content: center;
+    height: 200px;
 }
 
 .tiles{
@@ -14,4 +16,21 @@
 .tilegrow{
     width: 208px;
     height: 100px;
+}
+
+.margin{
+    margin-top: 8px;
+}
+
+h2{
+    color: #72fa93;
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: poppins;
+}
+
+@media only screen and (max-width: 800px) {
+    .margin{
+        margin-top: 0px;
+    }
 }
