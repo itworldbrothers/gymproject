@@ -13,13 +13,13 @@
     background-size: cover;
 }
 
-.maintext{
+.maintext {
     width: 30%;
     margin-left: 60px;
     margin-top: 50px;
 }
 
-.color{
+.color {
     color: #fff;
     font-size: 45px;
     padding: 5px;
@@ -27,12 +27,13 @@
     font-family: 'Poppins';
     font-weight: 600;
 }
-.nogain{
+
+.nogain {
     margin-left: 60px;
 }
 
-.search{
-  
+.search {
+
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -40,19 +41,36 @@
 
 }
 
-.section{
+.section {
     width: 100%;
     display: flex;
-    margin: 20px;
+    margin-top: 20px;
 }
 
-.setsidewidth{
-    width:5%
+.setsidewidth {
+    width: 5%
 }
 
-.width{
+.width {
     width: 26%;
 }
-.width2{
-    width:38%
+
+.width2 {
+    width: 38%
+}
+
+@media only screen and (max-width: 800px) {
+    .section {
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .width2 {
+        width: 100%;
+    }
 }

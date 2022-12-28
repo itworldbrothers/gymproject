@@ -16,17 +16,21 @@
 
 .card-main::-webkit-scrollbar{
     height: 10px;
+   
 }
 
 .card-main::-webkit-scrollbar-thumb {
-    background: #131627; 
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    background-image: linear-gradient(to right, #A100FFFF,#119CFDFF);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+    
 }
 
+
 .card-main::-webkit-scrollbar-track {
-    /* box-shadow: inset 0 0 5px rgb(198, 40, 45); */
     border-radius: 10px;
+    
 }
 
 .card {
