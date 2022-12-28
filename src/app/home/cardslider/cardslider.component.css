@@ -1,7 +1,7 @@
 .card-main {
     width: 100%;
     background-color: rgb(241, 86, 8);
-    min-height: 200px;
+    min-height: 250px;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -34,7 +34,7 @@
 
 .card {
     background-color: #fff;
-    height: 170px;
+    height: 220px;
     min-width: 30%;
     margin: 13px;
     box-shadow: 2px 2px 8px rgb(74, 91, 101);
