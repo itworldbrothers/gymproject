@@ -32,6 +32,10 @@
     
 }
 
+.card-main::-webkit-scrollbar-corner {
+    visibility: hidden;
+}
+
 .card {
     background-color: #fff;
     height: 170px;
