@@ -15,7 +15,7 @@
 }
 
 .card-main::-webkit-scrollbar{
-    height: 10px;
+    height: 5px;
    
 }
 
@@ -23,7 +23,6 @@
     background-image: linear-gradient(to right, #A100FFFF,#119CFDFF);
     border-radius: 5px;
     margin-bottom: 5px;
-    
     
 }
 
