@@ -53,11 +53,11 @@
 }
 
 .width {
-    width: 26%;
+    width: 30%;
 }
 
 .width2 {
-    width: 38%
+    width: 30%
 }
 
 @media only screen and (max-width: 800px) {
