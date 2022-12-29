@@ -29,6 +29,42 @@ h2{
     font-family: poppins;
 }
 
+
+
+.smoothopen{
+    background: linear-gradient(90deg,rgb(14, 161, 6), rgb(103, 158, 100), rgb(6, 225, 32));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: open_words 4s;
+}
+
+@keyframes open_words {
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.smoothclose{
+    background: linear-gradient(90deg,rgb(161, 102, 6), rgb(189, 26, 23), rgb(220, 17, 17));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: close_words 4s;
+}
+
+@keyframes close_words {
+    0%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+
 @media only screen and (max-width: 800px) {
     .margin{
         margin-top: 0px;
