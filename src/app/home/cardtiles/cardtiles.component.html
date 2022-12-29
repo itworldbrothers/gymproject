@@ -6,7 +6,7 @@
     <div class="tiles tilegrow margin">5</div>
 
     <div>
-        <h2>{{wish}}</h2>
+        <h2 [ngClass]="wish == 'Gym is Open' ? 'smoothopen' : wish == 'Gym is Close' ? 'smoothclose' : '' ">{{wish}}</h2>
     </div>
 </div>
 
