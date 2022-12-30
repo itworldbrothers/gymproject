@@ -60,6 +60,23 @@
     width: 30%
 }
 
+.animinate {
+    animation: animate 6s infinite;
+}
+
+@keyframes animate {
+    0%{
+       font-size: 45px;
+    }
+    50%{
+        font-size: 53px;
+        color: rgb(211, 37, 37);
+    }
+    100%{
+        font-size: 45px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .section {
         width: 100%;
