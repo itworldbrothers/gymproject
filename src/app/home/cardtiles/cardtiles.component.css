@@ -1,6 +1,4 @@
 .tilesmain{
-    display: flex;
-    flex-wrap: wrap;
     margin: 0px 4px;
     justify-content: center;
     height: 200px;
@@ -27,6 +25,17 @@ h2{
     margin-top: 10px;
     font-size: 26px;
     font-family: poppins;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -66,8 +75,9 @@ h2{
 
 
 @media only screen and (max-width: 800px) {
-    .margin{
-        margin-top: 0px;
+    .tilesmain{
+        margin-top: -70px;
+        margin-bottom: 70px;
     }
-    
+
 }

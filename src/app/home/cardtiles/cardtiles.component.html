@@ -1,9 +1,13 @@
 <div class="tilesmain">
-    <div class="tiles">1</div>
-    <div class="tiles">2</div>
-    <div class="tiles">3</div>
-    <div class="tiles bottomcards margin">4</div>
-    <div class="tiles tilegrow margin">5</div>
+    <div class="section1">
+        <div class="tiles">1</div>
+        <div class="tiles">2</div>
+        <div class="tiles">3</div>
+    </div>
+    <div class="margin section2">
+        <div class="tiles">4</div>
+        <div class="tiles tilegrow">5</div>
+    </div>
 
     <div>
         <h2 [ngClass]="wish == 'Gym is Open' ? 'smoothopen' : wish == 'Gym is Close' ? 'smoothclose' : '' ">{{wish}}</h2>
