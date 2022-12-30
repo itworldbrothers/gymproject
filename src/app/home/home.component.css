@@ -66,14 +66,14 @@
 
 @keyframes animate {
     0%{
-       font-size: 45px;
+        transform: scale(1);
     }
     50%{
-        font-size: 53px;
+        transform: scale(1.3);
         color: rgb(211, 37, 37);
     }
     100%{
-        font-size: 45px;
+        transform: scale(1);
     }
 }
 
