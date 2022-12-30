@@ -14,23 +14,26 @@
 
 }
 
-.card-main::-webkit-scrollbar{
-    height: 5px;
-   
+.card-main::-webkit-scrollbar {
+    height: 15px;
+
 }
 
 .card-main::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right, #A100FFFF,#119CFDFF);
+    background-image: linear-gradient(to top, transparent,transparent, rgb(41, 88, 209), rgb(25, 152, 194) ,transparent, transparent);
     border-radius: 5px;
     margin-bottom: 5px;
-    
+    border-left: 15px solid rgb(241, 86, 8);
+    border-right: 15px solid rgb(241, 86, 8);
+
 }
 
 
 .card-main::-webkit-scrollbar-track {
     border-radius: 10px;
-    
+
 }
+
 
 .card {
     background-color: #fff;
