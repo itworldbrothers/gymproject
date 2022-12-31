@@ -15,14 +15,15 @@
     margin-top: 15px;
 }
 
-.icons p{
-    background-color: red;
-    padding: 10px 15px;
+.icons i{
+    color: white;
+    font-size: 30px;
     z-index: 1;
 }
 
 .message{
     background-color: aquamarine;
+    border-radius: 5px;
     margin: 10px 20px;
     padding: 10px;
 }
