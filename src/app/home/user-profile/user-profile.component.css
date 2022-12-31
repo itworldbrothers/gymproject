@@ -16,6 +16,7 @@
 .username{
     display: flex;
     align-items: baseline;
+    cursor: pointer;
 }
 .profile {
     color: #fff;

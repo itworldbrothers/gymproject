@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { CardsliderComponent } from './cardslider/cardslider.component';
 import { CardtilesComponent } from './cardtiles/cardtiles.component';
 import { SocialnotificationComponent } from './socialnotification/socialnotification.component';
+import { ProfileDialogComponent } from './user-profile/profile-dialog/profile-dialog.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SocialnotificationComponent } from './socialnotification/socialnotifica
     UserProfileComponent,
     CardsliderComponent,
     CardtilesComponent,
-    SocialnotificationComponent
+    SocialnotificationComponent,
+    ProfileDialogComponent
   ],
   imports: [
     CommonModule,

@@ -3,9 +3,16 @@
     <div class="pagename">
         <h1>FITNESS ARENA</h1>
     </div>
-    <div class="username">
-        <div class="profile">
-            <p>GYM BOY</p>
+    <div class="username" [matMenuTriggerFor]="menu">
+        <div>
+            <p class="profile">GYM BOY</p>
+            <mat-menu #menu="matMenu">
+                <h1 mat-menu-item>GYM BOY</h1>
+                <h6 mat-menu-item> view full profile</h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, provident vitae! 
+                     Est distinctio maiores placeat delectus, unde facilis quasi dicta corrupti iure 
+                      ratione nesciunt rem optio nisi tempore? Cum, impedit.</p>
+            </mat-menu>
         </div>
 
         <div>
