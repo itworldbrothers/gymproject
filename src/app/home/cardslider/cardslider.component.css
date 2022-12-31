@@ -1,6 +1,6 @@
 .card-main {
     width: 100%;
-    background-color: rgb(241, 86, 8);
+    background-color: #570A57;
     min-height: 250px;
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@
     background-image: linear-gradient(to top, transparent,transparent, rgb(41, 88, 209), rgb(25, 152, 194) ,transparent, transparent);
     border-radius: 5px;
     margin-bottom: 5px;
-    border-left: 15px solid rgb(241, 86, 8);
-    border-right: 15px solid rgb(241, 86, 8);
+    border-left: 15px solid #570A57;
+    border-right: 15px solid #570A57;
 
 }
 
@@ -40,5 +40,14 @@
     height: 220px;
     min-width: 45%;
     margin: 13px;
-    box-shadow: 2px 2px 8px rgb(74, 91, 101);
+    animation: cards_blink 4s infinite;
+}
+
+@keyframes cards_blink {
+    0%{box-shadow: 0 0 0px 0px #A91079;}
+    50%{
+        box-shadow: 0 0 8px 8px #F806CC;
+    }
+    100%{ box-shadow: 0 0 0px 0px #A91079;}
+    
 }
