@@ -79,4 +79,16 @@ h2{
         margin-top: 50px;
     }
 
+    .tiles{
+        width: 150px;
+        height: 150px;
+        background-color: aliceblue;
+        margin: 0 4px;
+    }
+    
+    .tilegrow{
+        width: 310px;
+        height: 150px;
+    }
+
 }

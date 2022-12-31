@@ -1,28 +1,32 @@
 .maindiv{
     width: 100%;
     min-height: 250px;
-    background-color: white;
+    /* background-color: white; */
 }
 
+.notification{
+    height: 180px;
+    /* background-color: blueviolet; */
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.icons p{
+    background-color: red;
+    padding: 10px 15px;
+    z-index: 1;
+}
+
+.message{
+    background-color: aquamarine;
+    margin: 10px 20px;
+    padding: 10px;
+}
 
 @media only screen and (max-width: 800px) {
-    .maindiv{
-        width: 100%;
-    }
-
-    .maindiv:after {
-        content: "";
-        display: block;
-        padding-bottom: 100%;
-    }
-
-    .chatbox{
-        background-color: blueviolet;
-    }
-    
-    .icons{
-        display: flex;
-        justify-content: center;
-    }
-
+ 
 }
