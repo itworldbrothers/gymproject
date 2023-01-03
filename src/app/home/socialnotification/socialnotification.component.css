@@ -1,13 +1,28 @@
 .maindiv{
     width: 100%;
     min-height: 250px;
-    /* background-color: white; */
 }
 
 .notification{
-    height: 180px;
-    /* background-color: blueviolet; */
+    height: 205px;
+    overflow-x: hidden;
+    white-space: nowrap;
 }
+
+.notification::-webkit-scrollbar {
+    width: 5px;
+}
+
+.notification::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, transparent, white ,transparent);
+}
+
+
+.notification::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
 
 .icons{
     display: flex;
