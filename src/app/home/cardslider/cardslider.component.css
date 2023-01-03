@@ -1,6 +1,6 @@
 .card-main {
     width: 100%;
-    background-color: #570A57;
+    background-color: aquamarine;
     min-height: 250px;
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@
     background-image: linear-gradient(to top, transparent,transparent, rgb(41, 88, 209), rgb(25, 152, 194) ,transparent, transparent);
     border-radius: 5px;
     margin-bottom: 5px;
-    border-left: 15px solid #570A57;
-    border-right: 15px solid #570A57;
+    border-left: 15px solid aquamarine;
+    border-right: 15px solid aquamarine;
 
 }
 
@@ -44,10 +44,10 @@
 }
 
 @keyframes cards_blink {
-    0%{box-shadow: 0 0 0px 0px #A91079;}
+    0%{}
     50%{
         box-shadow: 0 0 8px 8px #F806CC;
     }
-    100%{ box-shadow: 0 0 0px 0px #A91079;}
+    100%{ }
     
 }
