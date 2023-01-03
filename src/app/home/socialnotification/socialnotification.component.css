@@ -14,7 +14,7 @@
 }
 
 .notification::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to top, transparent, white ,transparent);
+    background-image: linear-gradient(to top, transparent,transparent, white ,transparent,transparent);
 }
 
 
