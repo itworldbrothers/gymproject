@@ -7,8 +7,9 @@
 .tiles{
     width: 100px;
     height: 100px;
-    background-color: aliceblue;
+    background-color: #ffffff;
     margin: 0 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .tilegrow{
@@ -82,7 +83,7 @@ h2{
     .tiles{
         width: 150px;
         height: 150px;
-        background-color: aliceblue;
+        background-color: #ffffff;
         margin: 0 4px;
     }
     

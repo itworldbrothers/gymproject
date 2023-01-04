@@ -31,16 +31,17 @@
 }
 
 .icons i{
-    color: white;
+    color: black;
     font-size: 30px;
     z-index: 1;
 }
 
 .message{
-    background-color: aquamarine;
+    background-color: #f7f7f7;
     border-radius: 5px;
     margin: 10px 20px;
     padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 @media only screen and (max-width: 800px) {
