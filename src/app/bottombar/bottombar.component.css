@@ -28,23 +28,45 @@
   margin: 0 32px;
   font-size: 1rem;
   font-weight: 900;
-  transition: 0.2s;
+  transition: 0.3s;
   padding: 10px;
   border-radius: 0.7rem;
   color: rgb(4, 49, 197);
+
 }
 
-.list li:hover{
+
+
+.list li:hover {
   background-color: #131627;
   color: #fff;
   cursor: pointer;
-  
+  padding :0px
+
 }
 
-.list:hover > :not(:hover){
+.list:hover> :not(:hover) {
   opacity: 50%;
-  color:rgb(34, 62, 156);
+  color: rgb(34, 62, 156);
 }
+
+a {
+  text-decoration: none;
+  border-radius: 0.7rem;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.active {
+  background-color: #131627;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 0.7rem;
+
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -62,20 +84,22 @@
 
 @media only screen and (max-width: 768px) {
   .container .list {
-  padding: 1px;
- }
- .list li {
-     margin: 0 9px;
-     font-size: 0.6rem;
-     font-weight: 900;
-   }
- }
+    padding: 1px;
+  }
+
+  .list li {
+    margin: 0 9px;
+    font-size: 0.6rem;
+    font-weight: 900;
+  }
+}
 
 @media only screen and (max-width: 700px) {
- .container .list {
- padding: 1px;
-}
-.list li {
+  .container .list {
+    padding: 1px;
+  }
+
+  .list li {
     margin: 0 9px;
     font-size: 0.6rem;
     font-weight: 900;
@@ -83,10 +107,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-.container .list {
- padding: 1px;
-}
-.list li {
+  .container .list {
+    padding: 1px;
+  }
+
+  .list li {
     margin: 0 8px;
     font-size: 0.5rem;
     font-weight: 900;
@@ -96,24 +121,26 @@
 
 @media only screen and (max-width: 450px) {
   .container .list {
-   padding: 1px;
-  }
-  .list li {
-      margin: 0 5px;
-      font-size: 0.4rem;
-      font-weight: 900;
-    }
-  
+    padding: 1px;
   }
 
-  @media only screen and (max-width: 400px) {
-    .container .list {
-     padding: 1px;
-    }
-    .list li {
-        margin: 0 4px;
-        font-size: 0.4rem;
-        font-weight: 900;
-      }
-    
-    }
+  .list li {
+    margin: 0 5px;
+    font-size: 0.4rem;
+    font-weight: 900;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .container .list {
+    padding: 1px;
+  }
+
+  .list li {
+    margin: 0 4px;
+    font-size: 0.4rem;
+    font-weight: 900;
+  }
+
+}
