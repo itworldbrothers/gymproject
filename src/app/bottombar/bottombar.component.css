@@ -40,7 +40,7 @@
 .list li:hover {
   background-color: #1b2d91;
   color: #fff;
-  padding :0px
+  padding :0px;
 
 }
 
@@ -55,10 +55,12 @@ a {
   padding: 10px;
   color: rgb(34, 62, 156);
   cursor: pointer;
+  
 }
 
 a:hover{
   color: #fff;
+  padding: 30px;
 }
 
 .active {
