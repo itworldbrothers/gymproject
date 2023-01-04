@@ -38,27 +38,31 @@
 
 
 .list li:hover {
-  background-color: #131627;
-  color: #ffffff;
-  cursor: pointer;
+  background-color: #1b2d91;
+  color: #fff;
   padding :0px
 
 }
 
 .list:hover> :not(:hover) {
   opacity: 50%;
-  color: rgb(34, 62, 156);
+ 
 }
 
 a {
   text-decoration: none;
   border-radius: 0.7rem;
   padding: 10px;
-  transition: 0.5s;
+  color: rgb(34, 62, 156);
+  cursor: pointer;
+}
+
+a:hover{
+  color: #fff;
 }
 
 .active {
-  background-color: #131627;
+  background-color: #1b2d91;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
