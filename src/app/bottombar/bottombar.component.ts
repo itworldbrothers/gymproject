@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Component, DoCheck, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-bottombar',
@@ -7,5 +9,10 @@ import { Component } from '@angular/core';
 })
 export class BottombarComponent {
  
+
+  
+
+   
+
 
 }

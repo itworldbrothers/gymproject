@@ -37,10 +37,10 @@
 
 
 
-.list li a:hover {
+.list li:hover {
   background-color: #1b2d91;
   color: #fff;
-  padding :10px;
+  padding :0px;
 
 }
 
@@ -57,6 +57,10 @@ a {
   
 }
 
+a:hover{
+  color: #fff;
+  padding: 30px;
+}
 
 .active {
   background-color: #1b2d91;
