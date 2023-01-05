@@ -14,7 +14,7 @@
 }
 
 .notification::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to top, transparent,transparent, white ,transparent,transparent);
+    background-image: linear-gradient(to top, transparent,transparent, blue ,transparent,transparent);
 }
 
 
@@ -38,6 +38,7 @@
 
 .message{
     background-color: #f7f7f7;
+    border: 1px solid #6dd291;
     border-radius: 5px;
     margin: 10px 20px;
     padding: 10px;

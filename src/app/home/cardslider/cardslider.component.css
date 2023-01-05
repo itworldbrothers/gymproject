@@ -20,7 +20,7 @@
 }
 
 .card-main::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right, transparent,transparent, white ,transparent, transparent);
+    background-image: linear-gradient(to right, transparent,transparent, blue ,transparent, transparent);
     border-radius: 5px;
     /* margin-bottom: 5px; */
     /* border-left: 15px solid aquamarine;
@@ -37,6 +37,7 @@
 
 .card {
     background-color: #ffffff;
+    border: 1px solid #6dd291;
     height: 220px;
     min-width: 45%;
     margin: 13px;
