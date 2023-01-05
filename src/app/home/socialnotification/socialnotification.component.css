@@ -37,12 +37,20 @@
 }
 
 .message{
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border: 1px solid #6dd291;
     border-radius: 5px;
     margin: 10px 20px;
-    padding: 10px;
+    padding: 14px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.message p{
+    color: blackish;
+    font-size: 14px;
+    font-family: poppins;
+    margin: 0;
+    padding-top: 40px 0;
 }
 
 @media only screen and (max-width: 800px) {
