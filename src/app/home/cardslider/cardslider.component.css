@@ -36,9 +36,12 @@
 
 
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
-    border: 1px solid #6dd291;
-    height: 220px;
+    border: none;
+    height: 250px;
     min-width: 45%;
     margin: 13px;
     animation: cards_blink 4s infinite;
@@ -47,8 +50,9 @@
 @keyframes cards_blink {
     0%{}
     50%{
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     }
     100%{ }
     
 }
+
