@@ -12,7 +12,6 @@ import {MaterialModule} from "./material/material.module";
   declarations: [
     AppComponent,
     BottombarComponent,
-    
   ],
   imports: [
     BrowserModule,
