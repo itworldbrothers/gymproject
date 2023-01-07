@@ -1,0 +1,13 @@
+
+.loginmain{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 30%;
+    height: 30%;
+    background-color: #ffffff;
+}
