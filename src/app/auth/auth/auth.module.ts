@@ -5,12 +5,14 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { AuthComponent } from './auth.component';
 import { LoginComponent } from '../login/login.component';
 import { MaterialModule } from 'src/app/material/material.module';
+import { RegisterComponent } from '../register/register.component';
 
 
 @NgModule({
   declarations: [
     AuthComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule,
