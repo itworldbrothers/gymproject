@@ -1,0 +1,28 @@
+
+.loginmain{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .button{
+    float: right;
+  }
