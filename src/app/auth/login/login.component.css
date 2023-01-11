@@ -31,6 +31,15 @@
     margin-bottom: 20px;
   }
 
+  .fitness{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
   .example-full-width {
     width: 100%;
   }

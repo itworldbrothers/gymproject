@@ -16,6 +16,15 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
    
   }
+
+  .fitness{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
   
 .register-full-width {
     width: 100%;
