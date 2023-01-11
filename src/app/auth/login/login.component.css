@@ -19,8 +19,24 @@
     padding: 50px;
   }
   
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo h1{
+    font-size: 40px;
+    display: flex;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
   .example-full-width {
     width: 100%;
+  }
+
+  .checkbox{
+    margin-left: 0;
   }
 
   .button{
