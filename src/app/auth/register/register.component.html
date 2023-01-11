@@ -1,6 +1,12 @@
 <div class="registermain">
 
-  <form class="register-form" [formGroup]="registerForm" (ngSubmit)="registerdata()">
+  
+<div class="register-form">
+
+  <div class="fitness" [routerLink]="['/']">FITNESS ARENA</div>
+
+  <form [formGroup]="registerForm" (ngSubmit)="registerdata()">
+    
     <mat-form-field class="register-full-width" appearance="outline">
       <mat-label>Name</mat-label>
       <input matInput placeholder="Enter Your Name" formControlName="name">
@@ -38,5 +44,9 @@
       <button mat-raised-button color="primary">Register</button>
     </div>
   </form>
+
+
+</div>
+  
 
 </div>

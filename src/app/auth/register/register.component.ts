@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -12,7 +13,7 @@ export class RegisterComponent implements OnInit {
 
  registerForm! : FormGroup;
 
-  constructor( private fb : FormBuilder) {
+  constructor( private fb : FormBuilder ,private router:Router) {
    this.registerForm = this.fb.group({
    name: ['',Validators.required],
    email: ['',Validators.required],
@@ -25,7 +26,7 @@ export class RegisterComponent implements OnInit {
 
   
   ngOnInit(): void {
-    
+  
   }
 
   registerdata(){

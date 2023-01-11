@@ -1,6 +1,7 @@
 <div class="loginmain">
     <div class="login">
         <form class="example-form">
+          <div class="fitness" [routerLink]="['/']">FITNESS ARENA</div>
             <h2>Login to your account</h2>
 
             <mat-form-field class="example-full-width" appearance="outline">
@@ -17,7 +18,7 @@
                 <button mat-raised-button color="accent">Accent</button>
             </div>
             <div>
-              <p class="notreg">Not registered? <a routerLink="/register">Create an account</a></p>
+              <p class="notreg">Not registered? <a [routerLink]="['/auth/register']">Create an account</a></p>
             </div>
         </form>
     </div>
