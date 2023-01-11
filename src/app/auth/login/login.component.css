@@ -10,6 +10,7 @@
     width: 30%;
     background-color: #ffffff;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .example-form {
@@ -19,22 +20,10 @@
     padding: 50px;
   }
   
-  .logo{
-    display: flex;
-    justify-content: center;
-  }
-
-  .logo h1{
-    font-size: 40px;
-    display: flex;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-
   .fitness{
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 40px;
     font-weight: 900;
     margin-bottom: 30px;
     cursor: pointer;
