@@ -8,6 +8,40 @@
 
 .login{
     width: 30%;
-    height: 30%;
     background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .fitness{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .checkbox{
+    margin-left: 0;
+  }
+
+  .button{
+    float: right;
+  }
+
+  .notreg{
+    margin-top: 18px;
+    font-weight: 300;
+  }

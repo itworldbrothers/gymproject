@@ -1,13 +1,28 @@
 <div class="loginmain">
     <div class="login">
-        <mat-form-field appearance="outline">
-            <mat-label>Input</mat-label>
-            <input type="text" matInput>
-        </mat-form-field>
+        <form class="example-form">
+          <div class="fitness" [routerLink]="['/']">FITNESS</div>
+            <h2>Login to your account</h2>
 
-        <mat-form-field appearance="outline">
-            <mat-label>Input</mat-label>
-            <input type="password" matInput>
-        </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Username</mat-label>
+              <input matInput>
+            </mat-form-field>
+          
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Password</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <div>
+              <mat-checkbox class="checkbox">Remember me</mat-checkbox>
+            </div>
+
+            <div class="button">
+                <button mat-raised-button color="accent">SIGN IN</button>
+            </div>
+            <div>
+              <p class="notreg">Not registered? <a [routerLink]="['/auth/register']">Create an account</a></p>
+            </div>
+        </form>
     </div>
 </div>
