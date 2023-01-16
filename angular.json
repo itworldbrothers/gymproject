@@ -72,7 +72,8 @@
               "browserTarget": "gymproject:build:production"
             },
             "development": {
-              "browserTarget": "gymproject:build:development"
+              "browserTarget": "gymproject:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
