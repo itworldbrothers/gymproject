@@ -116,5 +116,6 @@
   align-items: flex-end;
 }
 .button{
-  background-color: rgb(187, 38, 73);
+  background-color: #fff;
+  color: rgb(187, 38, 73);
 }
