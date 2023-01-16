@@ -1,6 +1,6 @@
 {
     "/api/*": {
-        "target": "http://vercel.com",
+        "target": "https://gymproject1.vercel.app/",
         "secure": false
     }
 }
