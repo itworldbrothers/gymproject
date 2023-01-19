@@ -35,17 +35,7 @@
 }
 
 
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border: none;
-    height: 250px;
-    min-width: 45%;
-    margin: 13px;
-    animation: cards_blink 4s infinite;
-}
+
 
 @keyframes cards_blink {
     0% {}
@@ -58,7 +48,7 @@
 
 }
 
-.card2 {
+.card {
 
     background-color: #ffffff;
     border: none;
@@ -70,8 +60,9 @@
     animation: cards_blink 4s infinite;
 }
 
-.card2:hover{
+.card:hover{
     transform: scale(1.1);
+    border: 1px solid rgb(187, 38, 73);
 }
 
 .cardinside {
@@ -83,7 +74,7 @@
     border-radius: 7px;
 }
 
-.cardinside2{
+.cardinsides{
     border-radius: 50%;
     border: 1px solid blue;
     overflow: hidden;
@@ -118,4 +109,10 @@
 .button{
   background-color: #fff;
   color: rgb(187, 38, 73);
+  transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgb(187, 38, 73);
+    color: #fff;
 }
